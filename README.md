@@ -1,7 +1,7 @@
 # OCHA Humanitarian DataViz Tool — Download
 
 This repository hosts the **download form** for the OCHA Humanitarian DataViz
-Tool, a free Adobe Illustrator plugin for building OCHA-branded charts, made by
+Tool, a free plugin for Adobe Illustrator for building OCHA-branded charts, made by
 the OCHA Brand and Design Unit (BDU).
 
 **Live form:** https://un-ocha.github.io/dataviz_download_BDU/
