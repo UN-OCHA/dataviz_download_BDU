@@ -23,6 +23,7 @@
     .body { padding: 22px 28px 28px; }
     .body p.lead { margin: 0 0 18px; font-size: 14px; line-height: 1.5; color: #44617A; }
     label { display: block; font-size: 13px; font-weight: 500; margin: 14px 0 5px; }
+    .req { color: #C8102E; font-weight: 700; }
     input {
       width: 100%; padding: 11px 12px; font-size: 15px; font-family: inherit;
       border: 1px solid #C6D3DF; border-radius: 6px; color: #1A3D5C; background: #fff;
@@ -57,16 +58,16 @@
     </div>
     <div class="body">
       <div id="formView">
-        <p class="lead">Free Adobe Illustrator plugin for building OCHA-branded charts. Tell us a little about you and your download will start.</p>
-        <label for="name">Full name</label>
+        <p class="lead">A free Adobe Illustrator plugin for building charts. Fill in the form below to start your download.</p>
+        <label for="name">Full name <span class="req">*</span></label>
         <input id="name" type="text" autocomplete="name" placeholder="Jane Doe">
-        <label for="email">Email</label>
+        <label for="email">Email <span class="req">*</span></label>
         <input id="email" type="email" autocomplete="email" placeholder="jane@example.org">
-        <label for="org">Organization</label>
+        <label for="org">Organization <span class="req">*</span></label>
         <input id="org" type="text" autocomplete="organization" placeholder="e.g. OCHA, UNHCR, an NGO, independent">
         <div class="err" id="err"></div>
         <button id="go" onclick="submitForm()">Download the tool</button>
-        <p class="note">We use this only to understand who is using the tool. Your details are stored privately by the OCHA Brand and Design Unit and are not shared.</p>
+        <p class="note">Your name, email and organization are collected by the OCHA Brand and Design Unit solely to understand who is using the tool. They are processed in line with the UN Personal Data Protection and Privacy Principles, kept confidential, and not shared with third parties. Questions: ochavisual@un.org.</p>
       </div>
       <div class="success" id="successView">
         <div class="check">&#10003;</div>
